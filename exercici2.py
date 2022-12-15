@@ -9,12 +9,7 @@ def array2 ():
     return b
 
 def array3 ():
-    c = np.array([[12],
-                 [4],
-                 [9],
-                 [8]])
+    c = np.array([[12],[4],[9],[8]])
+    c.reshape(-1,1)
     return c
 
-print (array1())
-print (array2())
-print (array3())
